@@ -1,0 +1,27 @@
+# prjava02
+
+1. git branch branca00
+git checkout branca00
+git status Prjava02.java
+
+5. git checkout master
+git status Prjava02.java
+git log
+La diferéncia és que només està el commit de la branca master.
+
+6. Les noves dades no estàn degut a que és el fitxer de la branca master.
+
+7. Veig la última línia degut a qué he modificat el fitxer a aquesta branca i no en la branca master.
+
+10. git checkout master
+git merge branca00
+
+12. git push origin master
+Quan es fusionen dues branques, el contingut del fitxer mostra els canvis d'ambes versions del fitxer.
+
+14. git checkout brnca00
+git merge branca01
+
+PD: L'última ordre de fusionar les branques no em funciona degut a que els fitxers de cada branca són diferents,
+peró en el fitxer Prjava.java de la branca branca01 em mostra també les dades del fitxer de la branca branca00; com
+si s'haguessin fusionat, mentre que per terminal diu que no es possible fusionarlos per aixó.
