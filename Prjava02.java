@@ -9,7 +9,7 @@ import java.net.*;
 
 /**
  *
- * @author --> admume1718daw2@gmail.com
+ * @author --> admume1718daw2
  */
 public class Prjava02 {
 
